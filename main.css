@@ -1,14 +1,14 @@
 #desserts {
     font-size: 50px;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
     color: #004812;
 }
 
 #titel {
     font-size: 46px;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
 }
 
 #fotoflurry {
@@ -21,4 +21,15 @@
 
 #app {
     margin: auto;
+}
+
+.mctext {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+#vraagfaq {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    vertical-align: middle;
 }

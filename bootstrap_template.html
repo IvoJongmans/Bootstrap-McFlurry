@@ -4,7 +4,7 @@
   <title>McFlurry Stroopwafel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -30,9 +30,9 @@
     </div>    
     <div class="col-xs-4">
     </div>    
-    <div class="col-xs-4 text-right">
-       Een vraag?<br>
-       BEKIJK ONZE FAQ
+    <div class="col-xs-4 text-right" id="vraagfaq">
+       <i>Een vraag?</i><br>
+       <b>BEKIJK ONZE FAQ</b>
     </div>    
   </div>
 </div>
@@ -42,8 +42,8 @@
     <div class="col-sm-6">
       <p id="titel">McFlurry</p>
       <img src="flurrystroop.jpg" class="img-responsive" id="fotoflurry">
-      <p>McFLURRY STROOPWAFEL</p>
-      <p>Mix je eigen McFlurry met My McFlurry bij elke McDonald’s 
+      <p class="mctext">McFLURRY STROOPWAFEL</p>
+      <p class="mctext">Mix je eigen McFlurry met My McFlurry bij elke McDonald’s 
         in Nederland. Kies je topping: M&M’s Pinda, Oreo, Karamel-Zeezout 
         of Red Fruit Meringue. En kies je saus: Chocolade, 
         Karamel of Aardbei.</p>
@@ -61,18 +61,14 @@
   <div class="row">
     <div class="col-sm-6">
     <div class="form-group">
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
+        <label for="naam">Naam:</label>
+        <input type="text" class="form-control" id="naam">
         
-        <label for="usr">Locatie:</label>
-        <input type="text" class="form-control" id="usr">
+        <label for="loc">Locatie:</label>
+        <input type="text" class="form-control" id="loc">
         
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
-        
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
-        
+        <label for="mening">Mening:</label>
+        <textarea class="form-control" id="mening"></textarea>       
       </div>
     </div>
   
